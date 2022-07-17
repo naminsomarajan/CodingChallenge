@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+   justify-content: space-around; 
+    flex-wrap:wrap;
+    
+}
+
+
+.gallery {
+  flex-wrap: wrap;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(114, 74, 74);
+    box-shadow:5px 5px 5px;
+  }
+  
